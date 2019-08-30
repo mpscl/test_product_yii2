@@ -5,9 +5,11 @@ namespace app\modules\product\controllers;
 use Yii;
 use app\modules\product\models\Ad;
 use app\modules\product\models\AdSearch;
+use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * AdController implements the CRUD actions for Ad model.
@@ -65,9 +67,15 @@ class AdController extends Controller
     public function actionCreate()
     {
         $model = new Ad();
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        $model->display_image = UploadedFile::getInstance($model, 'display_image');
+        if (Yii::$app->request->isPost){
+            $model->load(Yii::$app->request->post());
+            $model->display_image = UploadedFile::getInstance($model, 'display_image');
+            $model->save();
+            if ($model->upload()) {
+                // file is uploaded successfully
+            }
+            return $this->redirect(['index', 'id' => $model->id]);
         }
 
         return $this->render('create', [
@@ -88,8 +96,12 @@ class AdController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
+        } elseif (!\Yii::$app->request->isPost) {
+            $model->load(Yii::$app->request->get());
+            $model->category_ids = ArrayHelper::map($model->categories, 'category', 'category');
+            $model->manufacturer_ids = ArrayHelper::map($model->manufacturers, 'manufacturer', 'manufacturer');
+            $model->product_ids = ArrayHelper::map($model->products, 'id', 'product');
         }
-
         return $this->render('update', [
             'model' => $model,
         ]);

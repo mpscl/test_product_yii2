@@ -16,6 +16,7 @@
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/codeception/stub" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/codeception/verify" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/code/vendor/cornernote/yii2-linkall" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/egulias/email-validator" />
@@ -23,8 +24,11 @@
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/fortawesome/font-awesome" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/fzaninotto/faker" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/code/vendor/kartik-v/yii2-dialog" />
+      <excludeFolder url="file://$MODULE_DIR$/code/vendor/kartik-v/yii2-grid" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/kartik-v/yii2-helpers" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/kartik-v/yii2-krajee-base" />
+      <excludeFolder url="file://$MODULE_DIR$/code/vendor/kartik-v/yii2-widget-select2" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/opis/closure" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/phar-io/manifest" />
@@ -57,6 +61,7 @@
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/sebastian/recursion-context" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/sebastian/resource-operations" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/code/vendor/select2/select2" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/swiftmailer/swiftmailer" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/symfony/browser-kit" />
       <excludeFolder url="file://$MODULE_DIR$/code/vendor/symfony/console" />

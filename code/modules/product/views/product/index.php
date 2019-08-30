@@ -9,8 +9,8 @@ use yii\widgets\Pjax;
 /* @var $searchModel app\modules\product\models\ProductSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Products';
-$this->params['breadcrumbs'][] = $this->title;
+//$this->title = 'Products';
+$this->params['breadcrumbs'][] = 'Products';
 ?>
 <div class="product-index">
 
@@ -50,7 +50,7 @@ $this->params['breadcrumbs'][] = $this->title;
             '{toggleData}',
         ],
         'panel' => [
-            'heading' => 'Grid',
+            'heading' => 'Products',
             'type' => GridView::TYPE_PRIMARY,
         ],
         'columns' => [

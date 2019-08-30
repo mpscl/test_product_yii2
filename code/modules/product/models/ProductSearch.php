@@ -66,7 +66,7 @@ class ProductSearch extends Product
         $query->andFilterWhere(['like', 'part_number', $this->part_number])
             ->andFilterWhere(['like', 'display_image', $this->display_image])
             ->andFilterWhere(['like', 'description', $this->description])
-            ->andFilterWhere(['like', 'slug', $this->slug]);
+            ->andFilterWhere(['like', 'slug', $this->slug])->orderBy('part_number');
 
         return $dataProvider;
     }

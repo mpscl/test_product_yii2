@@ -9,8 +9,8 @@ use yii\widgets\Pjax;
 /* @var $searchModel app\modules\product\models\ProductSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Ads Index';
-$this->params['breadcrumbs'][] = $this->title;
+//$this->title = 'Ads Index';
+$this->params['breadcrumbs'][] = 'Ad Index';
 ?>
 <div class="product-index">
 

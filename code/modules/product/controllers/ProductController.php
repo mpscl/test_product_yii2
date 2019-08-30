@@ -67,15 +67,16 @@ class ProductController extends Controller
     public function actionCreate()
     {
         $model = new Product();
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        $model->display_image = UploadedFile::getInstance($model, 'display_image');
+        if (Yii::$app->request->isPost){
+            $model->load(Yii::$app->request->post());
             $model->display_image = UploadedFile::getInstance($model, 'display_image');
+            $model->save();
             if ($model->upload()) {
                 // file is uploaded successfully
-                return;
             }
 
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['index', 'id' => $model->id]);
         }
 
 
@@ -100,6 +101,7 @@ class ProductController extends Controller
         } elseif (!\Yii::$app->request->isPost) {
             $model->load(Yii::$app->request->get());
             $model->category_ids = ArrayHelper::map($model->categories, 'category', 'category');
+            $model->manufacturer_ids = ArrayHelper::map($model->manufacturers, 'manufacturer', 'manufacturer');
         }
 
         return $this->render('update', [

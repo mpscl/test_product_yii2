@@ -82,6 +82,11 @@
       <path value="$PROJECT_DIR$/code/vendor/yiisoft/yii2-faker" />
       <path value="$PROJECT_DIR$/code/vendor/yiisoft/yii2-gii" />
       <path value="$PROJECT_DIR$/code/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/code/vendor/kartik-v/yii2-dialog" />
+      <path value="$PROJECT_DIR$/code/vendor/kartik-v/yii2-grid" />
+      <path value="$PROJECT_DIR$/code/vendor/kartik-v/yii2-widget-select2" />
+      <path value="$PROJECT_DIR$/code/vendor/select2/select2" />
+      <path value="$PROJECT_DIR$/code/vendor/cornernote/yii2-linkall" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />

@@ -1,6 +1,9 @@
 <?php
 
 use app\modules\product\models\Category;
+use app\modules\product\models\Manufacturer;
+use app\modules\product\models\Reference;
+use app\modules\product\models\Type;
 use kartik\select2\Select2;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
@@ -17,14 +20,40 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'part_number')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'type_id')->textInput() ?>
 
-    <?= $form->field($model, 'reference_id')->textInput() ?>
+    <?= $form->field($model, 'type_id')->widget(Select2::classname(), [
+        'data' => ArrayHelper::map(Type::find()->all(), 'id', 'type'),
+        'options' => ['placeholder' => 'Select a type ...'],
+        'pluginOptions' => [
+            'allowClear' => true
+        ]]);
+    ?>
+
+
+    <?= $form->field($model, 'reference_id')->widget(Select2::classname(), [
+        'data' => ArrayHelper::map(Reference::find()->all(), 'id', 'reference'),
+        'options' => ['placeholder' => 'Select a reference ...'],
+        'pluginOptions' => [
+            'allowClear' => true
+        ]]);
+    ?>
 
     <?= $form->field($model, 'category_ids')->widget(Select2::className(), [
         'model' => $model,
         'attribute' => 'category_ids',
         'data' => ArrayHelper::map(Category::find()->all(), 'category', 'category'),
+        'options' => [
+            'multiple' => true,
+        ],
+        'pluginOptions' => [
+            'tags' => true,
+        ],
+    ]); ?>
+
+    <?= $form->field($model, 'manufacturer_ids')->widget(Select2::className(), [
+        'model' => $model,
+        'attribute' => 'manufacturer_ids',
+        'data' => ArrayHelper::map(Manufacturer::find()->all(), 'manufacturer', 'manufacturer'),
         'options' => [
             'multiple' => true,
         ],

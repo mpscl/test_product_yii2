@@ -32,7 +32,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'part_number',
             'type_id',
-            'display_image',
+            [
+                'attribute' => 'display_image',
+                'value' => function ($model) {
+                    return "http://products.local/upload/".$model->display_image;
+                    }
+            ],
             'reference_id',
             'description',
             'slug',

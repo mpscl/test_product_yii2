@@ -26,6 +26,7 @@ class Product extends \yii\db\ActiveRecord
     }
 
     public $category_ids;
+    public $manufacturer_ids;
 
     /**
      * {@inheritdoc}
@@ -33,7 +34,7 @@ class Product extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['part_number', 'type_id', 'reference_id', 'slug', 'category_ids'], 'required'],
+            [['part_number', 'type_id', 'reference_id', 'slug', 'category_ids','manufacturer_ids'], 'required'],
             [['display_image'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg'],
             [['type_id', 'reference_id'], 'integer'],
             [['part_number', 'description', 'slug'], 'string', 'max' => 255],
@@ -47,6 +48,16 @@ class Product extends \yii\db\ActiveRecord
         ];
     }
 
+    public static function getProductById($id)
+    {
+        $cat = Product::find()->where(['id' => $id])->one();
+        if (!$cat) {
+            $cat = new Product();
+            $cat->save(false);
+        }
+        return $cat;
+    }
+
     public function afterSave($insert, $changedAttributes)
     {
         $cats = [];
@@ -57,13 +68,23 @@ class Product extends \yii\db\ActiveRecord
             }
         }
         $this->linkAll('categories', $cats);
+
+        $cats = [];
+        foreach ($this->manufacturer_ids as $manufacturer_name) {
+            $cat = Manufacturer::getManufacturerByName($manufacturer_name);
+            if ($cat) {
+                $cats[] = $cat;
+            }
+        }
+        $this->linkAll('manufacturers', $cats);
+
         parent::afterSave($insert, $changedAttributes);
     }
 
     public function upload()
     {
         if ($this->validate()) {
-            $this->imageFile->saveAs('uploads/' . $this->imageFile->baseName . '.' . $this->imageFile->extension);
+            $this->display_image->saveAs('/home/vagrant/code/web/upload/' . $this->display_image->baseName . '.' . $this->display_image->extension);
             return true;
         } else {
             return false;
@@ -73,8 +94,23 @@ class Product extends \yii\db\ActiveRecord
     public function getCategories()
     {
         return $this->hasMany(Category::className(), ['id' => 'category_id'])
-            //->via('postToTag');
             ->viaTable('product_to_category', ['product_id' => 'id']);
+    }
+
+    public function getManufacturers()
+    {
+        return $this->hasMany(Manufacturer::className(), ['id' => 'manufacturer_id'])
+            ->viaTable('product_to_manufacturer', ['product_id' => 'id']);
+    }
+
+    public function getType()
+    {
+        return $this->hasOne(Category::className(), ['id' => 'category_id']);
+    }
+
+    public function getReference()
+    {
+        return $this->hasOne(Reference::className(), ['id' => 'reference_id']);
     }
     /**
      * {@inheritdoc}

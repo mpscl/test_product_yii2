@@ -1,22 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e49eb0e8-4bb8-4c4b-af3e-92f40f7ab007" name="Default Changelist" comment="" />
+    <list default="true" id="e49eb0e8-4bb8-4c4b-af3e-92f40f7ab007" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ascensions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ascensions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.bowerrc" beforeDir="false" afterPath="$PROJECT_DIR$/code/.bowerrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/code/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/code/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/code/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/code/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/assets/AppAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/codeception.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/commands/ElevatorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/commands/ElevatorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/commands/HelloController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/commands/HelloController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/config/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/config/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/config/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/config/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/config/test_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/config/test_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/config/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/controllers/ElevatorsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/controllers/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/mail/layouts/html.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/mail/layouts/html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/migrations/m190827_030016_01_create_table_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/migrations/m190827_030016_01_create_table_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/Building.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/ContactForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/Day.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/Elevator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/LoginForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/MovementLog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/MovementSumary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/Sequence.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/controllers/AdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/controllers/AdController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/controllers/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/models/AdSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/models/AdSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/models/ProductSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/models/ProductSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/models/ProductToCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/models/ProductToCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/models/ad.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/models/ad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/ad/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/ad/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/ad/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/ad/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/ad/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/ad/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/ad/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/ad/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/ad/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/ad/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/ad/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/ad/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/default/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/default/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/product/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/product/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/product/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/product/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/product/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/product/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/product/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/product/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/product/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/product/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modules/product/views/product/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/modules/product/views/product/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/requirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/requirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/code/runtime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/_data/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/_data/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/_output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/_output/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/_support/AcceptanceTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/_support/AcceptanceTester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/_support/FunctionalTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/_support/FunctionalTester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/_support/UnitTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/_support/UnitTester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/acceptance.suite.yml.example" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/acceptance.suite.yml.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/acceptance/AboutCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/acceptance/AboutCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/acceptance/ContactCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/acceptance/ContactCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/acceptance/HomeCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/acceptance/HomeCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/acceptance/LoginCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/acceptance/LoginCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/acceptance/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/acceptance/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/bin/yii" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/bin/yii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/bin/yii.bat" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/bin/yii.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/functional.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/functional.suite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/functional/ContactFormCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/functional/ContactFormCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/functional/LoginFormCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/functional/LoginFormCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/functional/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/functional/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/unit.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/unit.suite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/unit/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/unit/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/unit/models/ContactFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/unit/models/ContactFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/unit/models/LoginFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/unit/models/LoginFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tests/unit/models/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/tests/unit/models/UserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/vagrant/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/code/vagrant/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/vagrant/config/vagrant-local.example.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/vagrant/config/vagrant-local.example.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/vagrant/nginx/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/code/vagrant/nginx/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/vagrant/nginx/log/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/code/vagrant/nginx/log/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/vagrant/provision/always-as-root.sh" beforeDir="false" afterPath="$PROJECT_DIR$/code/vagrant/provision/always-as-root.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/vagrant/provision/once-as-root.sh" beforeDir="false" afterPath="$PROJECT_DIR$/code/vagrant/provision/once-as-root.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/vagrant/provision/once-as-vagrant.sh" beforeDir="false" afterPath="$PROJECT_DIR$/code/vagrant/provision/once-as-vagrant.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/views/elevators/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/views/elevators/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/views/layouts/main_nw.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/views/layouts/main_nw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/views/site/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/views/site/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/views/site/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/views/site/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/views/site/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/views/site/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/views/site/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/asc.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/asc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/assets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/assets/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/index-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/index-test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/widgets/Alert.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/widgets/Alert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/yii" beforeDir="false" afterPath="$PROJECT_DIR$/code/yii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/yii.bat" beforeDir="false" afterPath="$PROJECT_DIR$/code/yii.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant" beforeDir="false" afterPath="$PROJECT_DIR$/vagrant" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/code/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vagrant" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="products.local" id="729aaade-feec-48b7-8d7c-96903ca98bf8" name="products.local" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/code" remote-root="/home/vagrant/code" />
+          <mapping local-root="$PROJECT_DIR$/code/web" remote-root="/var/www/html/core/web" />
+        </path_mappings>
+      </server>
+      <server host="dev.shmax.com" id="56bfe510-b353-46d5-a528-ef9253f128d4" name="dev.shmax.com" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/code/web" remote-root="/home/shmax/shmax.com/httpdocs" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$/code/web" selected_validation_type="LOCAL" web_path_to_validation_script="http://products.local:80" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/code/vendor/yiisoft/yii2-composer" />
@@ -99,11 +227,17 @@
       <path value="$PROJECT_DIR$/code/vendor/yiisoft/yii2-faker" />
       <path value="$PROJECT_DIR$/code/vendor/yiisoft/yii2-gii" />
       <path value="$PROJECT_DIR$/code/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/code/vendor/kartik-v/yii2-dialog" />
+      <path value="$PROJECT_DIR$/code/vendor/kartik-v/yii2-grid" />
+      <path value="$PROJECT_DIR$/code/vendor/kartik-v/yii2-widget-select2" />
+      <path value="$PROJECT_DIR$/code/vendor/select2/select2" />
+      <path value="$PROJECT_DIR$/code/vendor/cornernote/yii2-linkall" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Q7L7WTOs8VApWtpMeUEf9Hgnj5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -125,6 +259,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Product" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="products.local" session_id="1">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="products.local">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -136,6 +278,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567116520279</updated>
       <workItem from="1567116521849" duration="2796000" />
+      <workItem from="1567176909828" duration="8859000" />
     </task>
     <servers />
   </component>
@@ -147,10 +290,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/code/modules/product/controllers/DefaultController.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/code/modules/product/controllers/ProductController.php</url>
+          <line>69</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/code/modules/product/controllers/AdController.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/code/modules/product/models/ad.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
